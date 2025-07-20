@@ -1,0 +1,8 @@
+{
+	"liveServer.settings.port": 5502,
+	"liveServer.settings.fullReload": true,
+	"tailwindcss-intellisense.trace.server": "messages",
+	"css.lint.unknownAtRules": "ignore",
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"typescript.updateImportsOnFileMove.enabled": "always"
+}

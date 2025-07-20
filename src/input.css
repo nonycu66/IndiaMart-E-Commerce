@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	html {
+		overflow-x: hidden;
+	}
+
+	body {
+		font-family: 'Red Hat Display', sans-serif;
+		scroll-behavior: smooth;
+		min-height: 100vh;
+		overflow-x: hidden;
+		font-weight: 400;
+		line-height: 1;
+		color: #111;
+	}
+
+	h2 {
+		font-size: 27px;
+		font-weight: 700;
+		line-height: 1.1;
+	}
+}
+
+@layer utilities {
+	.custom-line-height {
+		line-height: 18px;
+	}
+
+	.custom-text-decoration {
+		text-decoration: none;
+	}
+
+	.custom-img-filter {
+		filter: invert(1);
+	}
+
+	.custom-box-shadow {
+		box-shadow: 0 0 6px rgba(0, 0, 0, 0.12);
+	}
+
+	.help-box-shadow {
+		box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, 0.15);
+	}
+
+	.signin-box-shadow {
+		box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, 0.15);
+	}
+
+	.build-bg-image {
+		background: url('/build/img/building-construction.jpg');
+		position: relative;
+		display: block;
+		background-size: cover;
+		background-repeat: no-repeat;
+		overflow: hidden;
+		height: 500px;
+	}
+
+	.build-bg-image::after {
+		content: '';
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		opacity: 0.8;
+		background: linear-gradient(
+			to bottom,
+			rgba(10, 10, 10, 0) 0%,
+			rgba(22, 22, 22, 1) 61%,
+			rgba(30, 30, 30, 1) 100%
+		);
+	}
+
+	.electronic-bg-image {
+		background: url('/build/img/electronics-electrical-goods.jpg');
+		position: relative;
+		display: block;
+		background-size: cover;
+		height: 500px;
+		background-repeat: no-repeat;
+		overflow: hidden;
+	}
+
+	.electronic-bg-image::after {
+		content: '';
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		opacity: 0.8;
+		background: linear-gradient(
+			to bottom,
+			rgba(10, 10, 10, 0) 0%,
+			rgba(22, 22, 22, 1) 61%,
+			rgba(30, 30, 30, 1) 100%
+		);
+	}
+
+	.drug-bg-image {
+		background: url('/build/img/bigBn06.jpg');
+		position: relative;
+		background-size: cover;
+		min-width: 92%;
+		height: 500px;
+		display: block;
+		background-repeat: no-repeat;
+		overflow: hidden;
+	}
+
+	.drug-bg-image::after {
+		content: '';
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		opacity: 0.8;
+		background: linear-gradient(
+			to bottom,
+			rgba(10, 10, 10, 0) 0%,
+			rgba(22, 22, 22, 1) 61%,
+			rgba(30, 30, 30, 1) 100%
+		);
+	}
+
+	.medical-bg-image {
+		background: url('/build/img/bigBn04.jpg');
+		position: relative;
+		background-size: cover;
+		min-width: 92%;
+		height: 500px;
+		display: block;
+		background-repeat: no-repeat;
+		overflow: hidden;
+	}
+
+	.medical-bg-image::after {
+		content: '';
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		opacity: 0.8;
+		background: linear-gradient(
+			to bottom,
+			rgba(10, 10, 10, 0) 0%,
+			rgba(22, 22, 22, 1) 61%,
+			rgba(30, 30, 30, 1) 100%
+		);
+	}
+
+	.machinery-bg-image {
+		background: url('/build/img/industrial-plants-machinery.jpg');
+		position: relative;
+		background-size: cover;
+		min-width: 92%;
+		height: 500px;
+		display: block;
+		background-repeat: no-repeat;
+		overflow: hidden;
+	}
+
+	.machinery-bg-image::after {
+		content: '';
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		opacity: 0.8;
+		background: linear-gradient(
+			to bottom,
+			rgba(10, 10, 10, 0) 0%,
+			rgba(22, 22, 22, 1) 61%,
+			rgba(30, 30, 30, 1) 100%
+		);
+	}
+
+	.industrial-bg-image {
+		background: url('/build/img/industrial-engineering.jpg');
+		position: relative;
+		background-size: cover;
+		min-width: 92%;
+		height: 500px;
+		display: block;
+		background-repeat: no-repeat;
+		overflow: hidden;
+	}
+
+	.industrial-bg-image::after {
+		content: '';
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		opacity: 0.8;
+		background: linear-gradient(
+			to bottom,
+			rgba(10, 10, 10, 0) 0%,
+			rgba(22, 22, 22, 1) 61%,
+			rgba(30, 30, 30, 1) 100%
+		);
+	}
+
+	.food-bg-image {
+		background: url('/build/img/vegetable-fruits.png');
+		position: relative;
+		background-size: cover;
+		min-width: 92%;
+		height: 500px;
+		display: block;
+		background-repeat: no-repeat;
+		overflow: hidden;
+	}
+
+	.food-bg-image::after {
+		content: '';
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		opacity: 0.8;
+		background: linear-gradient(
+			to bottom,
+			rgba(10, 10, 10, 0) 0%,
+			rgba(22, 22, 22, 1) 61%,
+			rgba(30, 30, 30, 1) 100%
+		);
+	}
+
+	.apparel-bg-image {
+		background: url('/build/img/apparel-clothing-garments.jpg');
+		position: relative;
+		background-size: cover;
+		min-width: 92%;
+		height: 500px;
+		display: block;
+		background-repeat: no-repeat;
+		overflow: hidden;
+	}
+	.apparel-bg-image::after {
+		content: '';
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		opacity: 0.8;
+		background: linear-gradient(
+			to bottom,
+			rgba(10, 10, 10, 0) 0%,
+			rgba(22, 22, 22, 1) 61%,
+			rgba(30, 30, 30, 1) 100%
+		);
+	}
+
+	.packaging-bg-image {
+		background: url('/build/img/bigBn05.jpg');
+		position: relative;
+		background-size: cover;
+		min-width: 92%;
+		height: 500px;
+		display: block;
+		background-repeat: no-repeat;
+		overflow: hidden;
+	}
+
+	.packaging-bg-image::after {
+		content: '';
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		opacity: 0.8;
+		background: linear-gradient(
+			to bottom,
+			rgba(10, 10, 10, 0) 0%,
+			rgba(22, 22, 22, 1) 61%,
+			rgba(30, 30, 30, 1) 100%
+		);
+	}
+
+	.chemicals-bg-image {
+		background: url('/build/img/bigBn03.jpg');
+		position: relative;
+		background-size: cover;
+		min-width: 92%;
+		height: 500px;
+		display: block;
+		background-repeat: no-repeat;
+		overflow: hidden;
+	}
+
+	.chemicals-bg-image::after {
+		content: '';
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		opacity: 0.8;
+		background: linear-gradient(
+			to bottom,
+			rgba(10, 10, 10, 0) 0%,
+			rgba(22, 22, 22, 1) 61%,
+			rgba(30, 30, 30, 1) 100%
+		);
+	}
+
+	.logistics-bg-image {
+		background: url('/build/img/bigBn07.jpg');
+		position: relative;
+		background-size: cover;
+		min-width: 92%;
+		height: 500px;
+		display: block;
+		background-repeat: no-repeat;
+		overflow: hidden;
+	}
+
+	.logistics-bg-image::after {
+		content: '';
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		opacity: 0.8;
+		background: linear-gradient(
+			to bottom,
+			rgba(10, 10, 10, 0) 0%,
+			rgba(22, 22, 22, 1) 61%,
+			rgba(30, 30, 30, 1) 100%
+		);
+	}
+
+	.custom-color-p {
+		color: rgb(102, 102, 102);
+	}
+
+	.material-line-height {
+		line-height: 14px;
+	}
+
+	.price-quantity {
+		line-height: 16px;
+	}
+
+	.featured-line-height {
+		line-height: 1.5;
+	}
+
+	.show {
+		display: block;
+	}
+
+	.more-custom-transition {
+		transition: width 0.4s ease-in-out;
+	}
+
+	.letter-spacing {
+		letter-spacing: 0.0175rem;
+	}
+
+	.letter-spacing-2 {
+		letter-spacing: 0.006rem;
+	}
+}
