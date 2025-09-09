@@ -20,7 +20,7 @@ export const buildingDataLeft = [
 
 export const buildingDataRight = [
 	{
-		thumbnail: '/img/brick-making-machines-125x125.jpg',
+		thumbnail: 'img/brick-making-machines-125x125.jpg',
 		title: 'Brick Making machines',
 		buildingPurposes: {
 			item1: 'Fly Ash Brick Making Machine',
@@ -29,7 +29,7 @@ export const buildingDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/passenger-lifts-125x125.jpg',
+		thumbnail: 'img/passenger-lifts-125x125.jpg',
 		title: 'Passenger Lifts',
 		buildingPurposes: {
 			item1: 'Residential Elevator',
@@ -38,7 +38,7 @@ export const buildingDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/tmt-bars-125x125.jpg',
+		thumbnail: 'img/tmt-bars-125x125.jpg',
 		title: 'TMT Bars',
 		buildingPurposes: {
 			item1: 'TMT Steel Bars',
@@ -47,7 +47,7 @@ export const buildingDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/plywoods-125x125.jpg',
+		thumbnail: 'img/plywoods-125x125.jpg',
 		title: 'Plywoods',
 		buildingPurposes: {
 			item1: 'Shuttering Plywood',
@@ -56,7 +56,7 @@ export const buildingDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/hydraulic-excavator-500x500-125x125.jpg',
+		thumbnail: 'img/hydraulic-excavator-500x500-125x125.jpg',
 		title: 'Excavator',
 		buildingPurposes: {
 			item1: 'Hitachi Excavator',
@@ -65,7 +65,7 @@ export const buildingDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/emulsion-paints-125x125.jpg',
+		thumbnail: 'img/emulsion-paints-125x125.jpg',
 		title: 'Emulsion Paints',
 		buildingPurposes: {
 			item1: 'Asian Emulsion Paints',
@@ -74,7 +74,7 @@ export const buildingDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/wood-door-125x125.jpg',
+		thumbnail: 'img/wood-door-125x125.jpg',
 		title: 'Wooden Door',
 		buildingPurposes: {
 			item1: 'Designer Wooden Door',
@@ -83,7 +83,7 @@ export const buildingDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/pvc-pipes-125x125.jpg',
+		thumbnail: 'img/pvc-pipes-125x125.jpg',
 		title: 'PVC Pipes',
 		buildingPurposes: {
 			item1: 'Finolex Pipes',
@@ -92,7 +92,7 @@ export const buildingDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/building-brick-125x125.jpg',
+		thumbnail: 'img/building-brick-125x125.jpg',
 		title: 'Building Brick',
 		buildingPurposes: {
 			item1: 'Red Brick',
