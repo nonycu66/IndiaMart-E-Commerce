@@ -11,11 +11,11 @@ export function generateNavLinksLayout() {
 
 	// Array containing background positions for different icons
 	const iconBackgroundPositions = [
-		'-331px_-231px',
-		'-305px_-14px',
-		'-357px_-14px',
-		'-406px_-14px',
-		'-280px_-125px',
+		'-331px -231px',
+		'-305px -14px',
+		'-357px -14px',
+		'-406px -14px',
+		'-280px -125px',
 	];
 
 	// Loop through the headerData array
@@ -23,7 +23,6 @@ export function generateNavLinksLayout() {
 		// Dynamically insert background positions for each icon based on the index
 		// Use the index to get the corresponding background position from the array
 		const backgroundPosition = iconBackgroundPositions[index];
-		console.log(backgroundPosition);
 
 		// Determine if the current item is the third item
 		const isThirdItem = index === 2;
@@ -72,13 +71,18 @@ export function generateNavLinksLayout() {
 			navLinksHTML +
 			`
 			  <li
-			     class="mt-0 ml-[5px] mr-[5px] py-0 px-2 custom-line-height relative list-none"
+			     class="mt-0 ml-[5px] mr-[5px] py-0 px-2 custom-line-height relative list-none cursor-pointer"
 			      >
                   <a
-					class="text-white pt-5 relative block custom-text-decoration before:content-[''] before:bg-[position:${backgroundPosition}] before:-top-[4px] before:left-[50%] before:w-4 before:h-5 before:bg-no-repeat before:-translate-x-[50%] before:absolute before:bg-[url('/build/img/hrd-sp-v32.png')]"
+					class="text-white pt-5 block relative custom-text-decoration"
 					href="${data.navLink.href}"
-					target="_blank"
+					
 			     	>
+					<span
+					   class="absolute -top-1 left-1/2 w-6 h-5 bg-[url('/build/img/hrd-sp-v32.png')] z-[9999999] -translate-x-1/2 bg-no-repeat"
+					   style="background-position: ${backgroundPosition}"
+					 >
+					</span>
 					${data.navLink.text}
 				    </a>
 					${helpDropdownHTML}

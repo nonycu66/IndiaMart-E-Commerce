@@ -3,7 +3,7 @@ export function generateCategoriesModalHTML(category) {
 	return `
 	
 <div
-   id="category_modal"
+   id="categoryModal"
     class="hidden fixed z-[998] w-full h-full top-0 left-0 right-0 bottom-0">
   <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  z-[998]">
     <div id="t0901_mcont" class="bg-white w-[984px] min-h-[500px] my-0 mx-auto relative rounded-lg">
@@ -64,7 +64,9 @@ export function generateCategoriesModalHTML(category) {
         <!------------------------------------------>
         <div id="t0901_leftR" class="be-Rsc be-frmpop eqfcsed lftMgn px-5 pt-[25px] pb-[15px] bg-white flex-auto relative">
             <i 
-             class="close_icon bg-close-icon bg-[rgba(0,0,0,0)] bg-no-repeat bg-[size:cover] outline-[rgba(102,102,102)] w-[18px] h-[18px] top-[10px] right-[10px] absolute cursor-pointer">
+             class="bg-close-icon bg-[rgba(0,0,0,0)] bg-no-repeat bg-[size:cover] outline-[rgba(102,102,102)] w-[18px] h-[18px] top-[10px] right-[10px] absolute cursor-pointer"
+               id="closeIcon"
+             >
             </i>
           <div id="t0901_rightsection" class="eqfcsed">
             <div id="t0901_hdg" class="be-hdg text-xl pt-[10px]">

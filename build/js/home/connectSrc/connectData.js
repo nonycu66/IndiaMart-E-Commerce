@@ -6,15 +6,15 @@ export const connectData = [
 		connectObjects: [
 			{
 				text: 'Trusted Platform',
-				connectIconPosition: '-479px_-334px',
+				connectIconPosition: '-479px -334px',
 			},
 			{
 				text: 'Safe & Secure',
-				connectIconPosition: '-463px_-256px',
+				connectIconPosition: '-463px -256px',
 			},
 			{
 				text: 'Quick Assistance',
-				connectIconPosition: '-466px_-176px',
+				connectIconPosition: '-466px -176px',
 			},
 		],
 	},

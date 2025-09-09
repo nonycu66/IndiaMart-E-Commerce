@@ -4,15 +4,15 @@ export const requireDataLeft = [
 		requireObjects: [
 			{
 				requireText: 'Tell us what <br> <b>You Need</b>',
-				iconPosition: '-3px_-134px',
+				iconPosition: '-3px -134px',
 			},
 			{
 				requireText: 'Recieve free quotes <br> from <b>seller</b>',
-				iconPosition: '-3px_-27px',
+				iconPosition: '-3px -27px',
 			},
 			{
 				requireText: 'Seal the <br> <b>Deal</b>',
-				iconPosition: '0px_-246px',
+				iconPosition: '0px -246px',
 			},
 		],
 	},

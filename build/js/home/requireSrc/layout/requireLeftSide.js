@@ -50,7 +50,9 @@ function createTextElem({ requireText, iconPosition }) {
        <li
           class="inline-block w-[32%] text-center relative"
         >
-          <i class="bg-[url('/build/img/home-sprite2.png')] block h-[100px] w-[120px] -top-[5px] absolute left-[10px] my-0 mx-auto bg-[position:${iconPosition}] bg-no-repeat scale-[0.9]"></i>
+          <i class="bg-[url('/build/img/home-sprite2.png')] block h-[100px] w-[120px] -top-[5px] absolute left-[10px] my-0 mx-auto bg-no-repeat scale-[0.9]"
+		  style="background-position: ${iconPosition}">
+		  </i>
          <p class="text-[14px] mt-[120px]">${requireText}</p>
          </li>
     `;

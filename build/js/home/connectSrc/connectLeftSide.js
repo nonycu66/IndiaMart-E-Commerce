@@ -47,7 +47,9 @@ export function generateConnectLeftSide(connectData) {
 function createArticle({ text, connectIconPosition }) {
 	return `
          <article class="w-[100%]">
-			<i class="bg-[url('/build/img/home-sprite2.png')] w-[60px] h-[30px] my-0 mx-auto block bg-no-repeat bg-[position:${connectIconPosition}]"></i>
+			<i class="bg-[url('/build/img/home-sprite2.png')] w-[60px] h-[30px] my-0 mx-auto block bg-no-repeat"
+			style="background-position: ${connectIconPosition}">
+			</i>
 			<p class="text-[14px] my-[12px] mx-0 lg:text-left">
 			 ${text}  
 			</p>

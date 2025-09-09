@@ -11,13 +11,13 @@ export function generateNavLinksLayout() {
 
 	// Array containing background positions for different icons
 	const iconBackgroundPositions = [
-		'-331px_-231px',
-		'-460px_-93px',
-		'-456px_-52px',
-		'-408px_-52px',
-		'-305px_-14px',
-		'-357px_-14px',
-		'-280px_-127px',
+		'-331px -231px',
+		'-460px -93px',
+		'-456px -52px',
+		'-408px -52px',
+		'-305px -14px',
+		'-357px -14px',
+		'-280px -127px',
 	];
 
 	// loop through the headerData array
@@ -33,6 +33,7 @@ export function generateNavLinksLayout() {
 		// Generate the html for the help and sign-in dropdowns if applicable
 		let helpDropdownHTML = '';
 		let signInDropdownHTML = '';
+		// Generate the dropdownIcon
 		let dropdownIcon = '';
 
 		// if the current item is the sixth item, generate the help dropdown html
@@ -72,14 +73,18 @@ export function generateNavLinksLayout() {
 		navLinksHTML =
 			navLinksHTML +
 			` 
-             	  <li
+             	<li
 			     class="mt-0 ml-[5px] mr-[5px] py-0 px-2 custom-line-height relative list-none"
 			      >
                   <a
-					class="text-white pt-5 relative block custom-text-decoration before:content-[''] before:bg-[position:${backgroundPosition}] before:-top-[4px] before:left-[50%] before:w-4 before:h-5 before:bg-no-repeat before:-translate-x-[50%] before:absolute before:bg-[url('/build/img/hrd-sp-v32.png')] before:z-[999999]"
+
+					class="text-white pt-5 relative block custom-text-decoration text-xs truncate"
 					href="${data.navLink.href}"
-					target="_blank"
 			     	>
+					<span class="absolute z-[999999] 
+					bg-[url('/build/img/hrd-sp-v32.png')] top-0 left-1/2 w-6 h-5 bg-no-repeat -translate-x-1/2"
+					style="background-position: ${backgroundPosition}">
+					</span>
 					${data.navLink.text}
 				    </a>
 					${helpDropdownHTML}

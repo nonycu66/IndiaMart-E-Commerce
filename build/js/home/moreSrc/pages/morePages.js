@@ -1,5 +1,4 @@
 import { generateMoreLayoutHTML } from '../moreComponents/moreLayout.js';
-import { moreData } from '../data/moreData.js';
 import { openModal } from '../moreComponents/control/moreControl.js';
 
 // Function to render more contents and attach event listeners
@@ -63,8 +62,16 @@ export function renderMoreLayoutHTML() {
 	// Add event listeners for the more buttons using event delegation
 	jsMoreList.addEventListener('click', (event) => {
 		const buttonElem = event.target.closest('.more_links');
-		if (buttonElem) {
+		if (!buttonElem) return;
+
+		// Only open modal if the first anchor (data-index="0") is clicked
+		if (buttonElem && buttonElem.getAttribute('data-index') === '0') {
 			openModal(event);
+		}
+		// Redirect to a new page if the fifth anchor (data-index="4") is clicked
+		else if (buttonElem.getAttribute('data-index') === '4') {
+			event.preventDefault(); // Prevent default anchor behavior
+			window.location.href = 'tally.html';
 		}
 	});
 

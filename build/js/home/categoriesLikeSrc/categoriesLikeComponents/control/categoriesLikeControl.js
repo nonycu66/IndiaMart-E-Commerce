@@ -27,18 +27,19 @@ export function openModal(event, category) {
 	modalContainer.innerHTML = modalContents;
 
 	// Get the modal element by its ID
-	const modal = document.getElementById('category_modal');
+	const modal = document.getElementById('categoryModal');
 	// Get the modal element by its ID
 	const overlay = document.getElementById('modalOverlayId_categories');
 	// Show the modal and overlay when the button is clicked
 	showModalOverlay(modal, overlay);
 
 	// Close the modal and overlay when the close icon is clicked
-	const closeCategoryModalIcon = document.querySelector('.close_icon');
+	const closeCategoryModalIcon = document.getElementById('closeIcon');
 	if (closeCategoryModalIcon) {
 		closeCategoryModalIcon.addEventListener('click', () => {
 			hideModalOverlay(modal, overlay);
 		});
+		console.log(closeCategoryModalIcon);
 	}
 
 	// close the modal and overlay when the user clicks outside the modal

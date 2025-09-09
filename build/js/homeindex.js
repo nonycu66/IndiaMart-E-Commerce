@@ -22,8 +22,6 @@ import { renderBrandsPagesHTML } from './home/brandsSrc/pages/brandsPages.js';
 import { renderMoreLayoutHTML } from './home/moreSrc/pages/morePages.js';
 import { renderGetApp } from './home/getAppSrc/getAppPages.js';
 import { renderFooterLayoutHTML } from './home/footerSrc/pages/footerPages.js';
-// Controls
-import { yearIncrement } from './control/footerControl.js';
 
 document.addEventListener('DOMContentLoaded', () => {
 	// Load HTML components for the Homepage
@@ -50,7 +48,4 @@ document.addEventListener('DOMContentLoaded', () => {
 	renderMoreLayoutHTML();
 	renderGetApp();
 	renderFooterLayoutHTML();
-
-	// Controls
-	yearIncrement();
 });

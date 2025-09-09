@@ -5,7 +5,7 @@ function generateBuildingRightSide() {
 	// Define an empty variable
 	let buildingRight = '';
 
-	// Loop through the buildingDataRight
+	// Loop through the buildingDataRight array
 	buildingDataRight.forEach((data) => {
 		buildingRight =
 			buildingRight +
@@ -70,7 +70,7 @@ function generateBuildingRightSide() {
 
 // Function to render the Building right side
 export function renderBuildingRightSide() {
-	// Render the right side
+	// Call the generateBuildingRightSide function and assign it to a variable
 	const rightSideContents = generateBuildingRightSide();
 
 	return `

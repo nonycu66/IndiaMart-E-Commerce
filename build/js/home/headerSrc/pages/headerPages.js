@@ -82,7 +82,7 @@ export function renderHeaderHTML() {
 
             <button
 				id="close-btn"
-				class="  hidden cursor-pointer"
+				class="hidden cursor-pointer"
 			>
 				<img
 					src="/build/icon/cross.svg"

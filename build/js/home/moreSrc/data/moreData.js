@@ -26,5 +26,6 @@ export const moreData = [
 		description:
 			"With Live Keeping. SME's can now connect their Tally offline data to mobile app",
 		link: 'Know More',
+		href: 'tally.html',
 	},
 ];

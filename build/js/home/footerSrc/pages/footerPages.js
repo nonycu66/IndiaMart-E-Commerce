@@ -6,6 +6,7 @@ import { footerDataFirst } from '../data/footerData.js';
 import { footerDataSecond } from '../data/footerData.js';
 import { footerDataThird } from '../data/footerData.js';
 import { footerDataFourth } from '../data/footerData.js';
+import { yearIncrement } from '../../../control/footerControl.js';
 
 // Function to dynamically render the footer html
 export function renderFooterLayoutHTML() {
@@ -56,4 +57,5 @@ export function renderFooterLayoutHTML() {
             ${footerContentsFourth}
            </ul>
     `;
+	yearIncrement();
 }

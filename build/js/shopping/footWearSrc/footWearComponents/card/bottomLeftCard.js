@@ -4,6 +4,7 @@ import { footWearDataSecond } from '../../data/footWearData.js';
 export function generateFootWearBottomLeft() {
 	let footWearCard = '';
 
+	// Loop through footerWearDataSecond
 	footWearDataSecond.forEach((footwear) => {
 		footWearCard =
 			footWearCard +

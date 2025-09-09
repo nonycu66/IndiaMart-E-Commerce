@@ -1,8 +1,5 @@
 // function to generate the footer contents dynamically
 export function generateFooterLayoutHTML() {
-	const currentDate = new Date();
-	const currentYear = currentDate.getFullYear();
-
 	const footerUl = document.createElement('ul');
 	footerUl.classList.add(
 		'py-4',
@@ -16,7 +13,7 @@ export function generateFooterLayoutHTML() {
               class="flex flex-col gap-y-2 lg:gap-y-0 lg:flex-row justify-center items-center lg:justify-between">
                <p>
                  <span>
-                   Copyright &copy; 1996-${currentYear} IndiaMart. All rights reserved.
+                   Copyright &copy; <span>1996</span>-<span id="year"></span> IndiaMart. All rights reserved.
                  </span>
                </p>
                <p>

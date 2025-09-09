@@ -38,7 +38,9 @@ export function generateHelpDropdownHTML(helpDropDownData) {
 	for (let i = 1; i < dropDownObjects.length; i++) {
 		const item = dropDownObjects[i];
 		const isAnchor =
-			item.href && item.text.toLowerCase().includes('http') === false;
+			item.href &&
+			item.helpIconPosition &&
+			item.text.toLowerCase().includes('http') === false;
 
 		if (isAnchor) {
 			html = html + createLink(item);
@@ -54,8 +56,12 @@ function createLink({ text, href, helpIconPosition }, isFlex = false) {
 	return ` 
            <a
 			href='${href}'
-			 class=" ${isFlex ? 'flex-1' : 'block w-full'}  text-[#333]  text-[13px] text-left  bg-[#fff]  py-[9px]  pl-8  relative no-underline before:absolute  before:content-[''] before:bg-[url('/build/icon/home-new-icon16.png')] before:top-[7px]  before:left-[7px]  before:h-[18px] before:w-[39px]  before:bg-no-repeat  before:bg-[position:${helpIconPosition}] hover:bg-[#f2f0f0]"
+			 class=" ${isFlex ? 'flex-1' : 'block w-full'}  text-[#333]  text-[13px] text-left  bg-[#fff]  py-[9px]  pl-8  relative no-underline hover:bg-[#f2f0f0]"
 			>
+			 <span class="absolute top-[7px] left-[7px] h-[18px] w-[39px] bg-no-repeat bg-[url('/build/icon/home-new-icon16.png')]"
+			   style="background-position: ${helpIconPosition}"
+			 >
+			 </span>
 			 ${text}
 			</a>
      `;
@@ -64,7 +70,11 @@ function createLink({ text, href, helpIconPosition }, isFlex = false) {
 // Function for the span element
 function createSpan({ text, helpIconPosition }) {
 	return ` 
-       	<span class="text-[#333] text-[13px]  text-left bg-white  block  relative  py-[9px]  pl-8  w-full  before:content-[''] before:bg-[/build/icon/home-new-icon16.png] before:absolute  before:h-[18px]  before:w-[39px]  before:top-[7px]  before:left-[7px]  before:bg-[position:${helpIconPosition}]  before:bg-no-repeat  hover:bg-[#f2f0f0]">
+       	<span class="text-[#333] text-[13px] text-left bg-white  block  relative py-[9px] pl-8 w-full hover:bg-[#f2f0f0]">
+		  <span class="absolute h-[18px] w-[39px] top-[7px] left-[7px] bg-no-repeat bg-[url('/build/icon/home-new-icon16.png')]"
+		    style="background-position: ${helpIconPosition}"
+		    >
+		  </span>
 			${text}
 		</span>
     `;

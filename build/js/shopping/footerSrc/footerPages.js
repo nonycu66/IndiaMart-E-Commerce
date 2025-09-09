@@ -1,4 +1,5 @@
 import { generateFooterLayoutHTML } from './footerLayout.js';
+import { yearIncrement } from '../../control/footerControl.js';
 
 // function to render the footer contents layout
 export function renderFooterLayoutHTML() {
@@ -20,4 +21,5 @@ export function renderFooterLayoutHTML() {
 	const footerContent = generateFooterLayoutHTML();
 	// Append the generated footer content to the footer element
 	footerDiv.appendChild(footerContent);
+	yearIncrement();
 }

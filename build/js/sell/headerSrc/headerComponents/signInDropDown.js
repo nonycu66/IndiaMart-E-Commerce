@@ -9,7 +9,7 @@ export function generateSignInDropdownHTML(signInDropDownData) {
 		signInDropDownData[0];
 
 	let html = ` 
-       	<div class="border-b border-[#eeeeee] border-solid">
+         	<div class="border-b border-[#eeeeee] border-solid">
 				<a
 					class="block no-underline w-[110px] py-[10px] my-[10px] mx-auto p-0 border border-solid border-[#00a699] text-center rounded-[3px] text-white bg-[#00a699] hover:bg-[#02625a]"
 					href="#"
@@ -27,7 +27,9 @@ export function generateSignInDropdownHTML(signInDropDownData) {
 	for (let i = 0; i < dropdownObjects.length; i++) {
 		const item = dropdownObjects[i];
 		const isAnchor =
-			item.href && item.text.toLowerCase().includes('http') === false;
+			item.href &&
+			item.signinIconPosition &&
+			item.text.toLowerCase().includes('http') === false;
 
 		if (isAnchor) {
 			html = html + createLink(item);
@@ -37,12 +39,17 @@ export function generateSignInDropdownHTML(signInDropDownData) {
 }
 
 // Function to generate the link element
-function createLink({ text, href, signIconPosition }) {
+function createLink({ text, href, signinIconPosition }) {
 	return ` 
        <a
-		  class="block relative py-[10px] pl-[35px] w-full text-left text-[#111] text-[13px] before:content-[''] before:absolute before:bg-signin-dropdown-icon before:top-[7px] before:left-[5px] before:bg-[position:${signIconPosition}] before:h-[20px] before:w-[40px] before:bg-no-repeat hover:bg-[#f2f0f0]"
+		  class="block relative py-[10px] pl-[35px] w-full text-left text-[#111] text-[13px] hover:bg-[#f2f0f0]"
 			href="${href}"
 			> ${text}
+			<span
+			  class="absolute bg-[url('/build/icon/home-new-icon16.png')] top-[7px] left-[5px] h-5 w-10 bg-no-repeat"
+			  style="background-position: ${signinIconPosition}" 
+			>
+			</span>
 			</a>
   `;
 }
