@@ -1,0 +1,51 @@
+// For Homepage Components
+import { renderHeaderHTML } from './home/headerSrc/pages/headerPages.js';
+import { searchHTML } from './home/searchSrc/searchPages.js';
+import { renderProductHTML } from './home/productsLikeSrc/pages/productLikePages.js';
+import { renderCategoriesHTML } from './home/categoriesLikeSrc/pages/categoriesPages.js';
+import { renderConnectPagestHTML } from './home/connectSrc/connectPages.js';
+import { renderBuildingPagesHTML } from './home/buildingSrc/pages/buildingPages.js';
+import { renderElectronicsPagesHTML } from './home/electronicsSrc/pages/electronicsPages.js';
+import { renderDrugPagesHTML } from './home/drugSrc/pages/drugPages.js';
+import { renderMedicalPagesHTML } from './home/medicalSrc/pages/medicalPages.js';
+import { renderMachineryPagesHTML } from './home/machinerySrc/pages/machineryPages.js';
+import { renderIndustrialPagesHTML } from './home/industrialSrc/pages/industrialPages.js';
+import { renderFoodPagesHTML } from './home/foodSrc/pages/foodPages.js';
+import { renderRequireLayout } from './home/requireSrc/pages/requirePages.js';
+import { renderApparelPagesHTML } from './home/apparelSrc/pages/apparelPages.js';
+import { renderPackagingPagesHTML } from './home/packagingSrc/pages/packagingPages.js';
+import { renderCitiesLayoutHTML } from './home/citiesSrc/citiesPages.js';
+import { renderChemicalsPagesHTML } from './home/chemicalsSrc/pages/chemicalsPages.js';
+import { renderLogisticsPagesHTML } from './home/logisticsSrc/pages/logisticsPages.js';
+import { renderPopularLayoutPages } from './home/popularSrc/pages/popularPages.js';
+import { renderBrandsPagesHTML } from './home/brandsSrc/pages/brandsPages.js';
+import { renderMoreLayoutHTML } from './home/moreSrc/pages/morePages.js';
+import { renderGetApp } from './home/getAppSrc/getAppPages.js';
+import { renderFooterLayoutHTML } from './home/footerSrc/pages/footerPages.js';
+
+document.addEventListener('DOMContentLoaded', () => {
+	// Load HTML components for the Homepage
+	renderHeaderHTML();
+	searchHTML();
+	renderProductHTML();
+	renderCategoriesHTML();
+	renderConnectPagestHTML();
+	renderBuildingPagesHTML();
+	renderElectronicsPagesHTML();
+	renderDrugPagesHTML();
+	renderMedicalPagesHTML();
+	renderMachineryPagesHTML();
+	renderIndustrialPagesHTML();
+	renderFoodPagesHTML();
+	renderRequireLayout();
+	renderApparelPagesHTML();
+	renderPackagingPagesHTML();
+	renderCitiesLayoutHTML();
+	renderChemicalsPagesHTML();
+	renderLogisticsPagesHTML();
+	renderPopularLayoutPages();
+	renderBrandsPagesHTML();
+	renderMoreLayoutHTML();
+	renderGetApp();
+	renderFooterLayoutHTML();
+});

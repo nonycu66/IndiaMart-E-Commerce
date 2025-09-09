@@ -1,0 +1,33 @@
+import { renderShoppingHeaderHTML } from './shopping/headerSrc/pages/renderHeaderPage.js';
+import { renderCategoriesLayout } from './shopping/categoriesSrc/pages/renderCategoriesPage.js';
+import { renderTopBrandsLayout } from './shopping/topBrandsSrc/pages/topBrandsPages.js';
+import { renderFeaturedLayoutHTML } from './shopping/featuredSrc/pages/featuredPages.js';
+import { renderLadiesWearHTML } from './shopping/ladiesSrc/pages/renderLadiesWearPage.js';
+import { renderMensLayoutHTML } from './shopping/menWearSrc/pages/menWearPages.js';
+import { renderFootWearHTML } from './shopping/footWearSrc/pages/renderFootWearPages.js';
+import { renderBeautyProductLayoutHTML } from './shopping/beautyProductSrc/pages/beautyProductPages.js';
+import { renderMobileAccessoriesHTML } from './shopping/mobileAccessoriesSrc/pages/renderMobileAccessoriesPage.js';
+import { renderBabyCareLayoutHTML } from './shopping/babyCareSrc/pages/babyCarePages.js';
+import { renderHomeDecorHTML } from './shopping/homeDecorSrc/pages/homeDecorPages.js';
+import { renderJewelleryLayoutHTML } from './shopping/jewellerySrc/pages/jewelleryPages.js';
+import { renderLightHTML } from './shopping/lightSrc/pages/lightPages.js';
+import { renderChemicalsLayoutHTML } from './shopping/chemicalsSrc/pages/chemicalsPages.js';
+import { renderFooterLayoutHTML } from './shopping/footerSrc/footerPages.js';
+document.addEventListener('DOMContentLoaded', () => {
+	// Load HTML components for shopping
+	renderShoppingHeaderHTML();
+	renderCategoriesLayout();
+	renderTopBrandsLayout();
+	renderFeaturedLayoutHTML();
+	renderLadiesWearHTML();
+	renderMensLayoutHTML();
+	renderFootWearHTML();
+	renderBeautyProductLayoutHTML();
+	renderMobileAccessoriesHTML();
+	renderBabyCareLayoutHTML();
+	renderHomeDecorHTML();
+	renderJewelleryLayoutHTML();
+	renderLightHTML();
+	renderChemicalsLayoutHTML();
+	renderFooterLayoutHTML();
+});
