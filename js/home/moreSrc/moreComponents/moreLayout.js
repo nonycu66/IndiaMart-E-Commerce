@@ -28,7 +28,7 @@ export function generateMoreLayoutHTML() {
                              <li 
                                   class="h-[200px] relative after:absolute after:inline-block after:content-[''] after:bg-[#333] after:w-[1px] after:h-[100%] after:top-[15px] after:right-0">
                                   <p>
-                                    <i class="bg-[url('/img/home-sprite2.png')] bg-no-repeat w-[60px] h-[60px] my-0 mx-auto block"
+                                    <i class="bg-[url('img/home-sprite2.png')] bg-no-repeat w-[60px] h-[60px] my-0 mx-auto block"
                                      style="background-position: ${iconPosition}"
 									>
                                     </i>

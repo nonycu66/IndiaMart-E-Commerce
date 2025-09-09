@@ -29,7 +29,7 @@ function generateRequireRightSide({
                          </div>
 
                          <div class="min-h-[38px]">
-                             <div class="relative  before:absolute before:block before:content-[''] before:bg-[url('/icon/messsage-box.png')] before:left-[5px] before:top-[10px] before:w-[28px] before:h-[20px] before:bg-no-repeat">
+                             <div class="relative  before:absolute before:block before:content-[''] before:bg-[url('icon/messsage-box.png')] before:left-[5px] before:top-[10px] before:w-[28px] before:h-[20px] before:bg-no-repeat">
                              </div>
                              <input 
                               type="text"  
@@ -41,7 +41,7 @@ function generateRequireRightSide({
 
                           <div class="flex items-center mt-[5px] text-[#698181] text-[12px]">
 
-                              <i class="w-[14px] h-[14px] bg-[url('/icon/globe.png')] mr-[5px] bg-no-repeat flex-shrink-0">
+                              <i class="w-[14px] h-[14px] bg-[url('icon/globe.png')] mr-[5px] bg-no-repeat flex-shrink-0">
                               </i>
 
                                 <div 

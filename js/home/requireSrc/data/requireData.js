@@ -25,7 +25,7 @@ export const requireDataRight = [
 		emailPlaceHolder: 'Enter your email',
 		countryText: 'Your Country is',
 		country: 'Nigeria',
-		caretdownicon: '/build/icon/caret-down.svg',
+		caretdownicon: 'icon/caret-down.svg',
 		namePlaceHolder: 'Enter your Name',
 		submitBtn: 'Submit Requirement',
 	},

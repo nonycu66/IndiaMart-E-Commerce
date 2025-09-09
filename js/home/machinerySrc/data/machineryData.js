@@ -20,7 +20,7 @@ export const machineryDataLeft = [
 
 export const machineryDataRight = [
 	{
-		thumbnail: '/img/food-processing-machine-125x125.jpg',
+		thumbnail: 'img/food-processing-machine-125x125.jpg',
 		title: 'Food Processing Machine',
 		machineryPurposes: {
 			item1: 'Flour Mill',
@@ -31,7 +31,7 @@ export const machineryDataRight = [
 	},
 	{
 		thumbnail:
-			'/img/high-speed-automatic-t-shirt-bag-making-machine-two-line--125x125.jpg',
+			'img/high-speed-automatic-t-shirt-bag-making-machine-two-line--125x125.jpg',
 		title: 'Bag Making Machine',
 		machineryPurposes: {
 			item1: 'Non Woven Bag Making Machine',
@@ -41,7 +41,7 @@ export const machineryDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/nop300-125x125.png',
+		thumbnail: 'img/nop300-125x125.png',
 		title: 'Snack Machine',
 		machineryPurposes: {
 			item1: 'Snack Machine ',
@@ -51,7 +51,7 @@ export const machineryDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/deck-125x125.jpg',
+		thumbnail: 'img/deck-125x125.jpg',
 		title: 'Bakery & Diary Machinery',
 		machineryPurposes: {
 			item1: 'Bakery Machinery',
@@ -61,7 +61,7 @@ export const machineryDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/cnc-lathe-machine-125x125.webp',
+		thumbnail: 'img/cnc-lathe-machine-125x125.webp',
 		title: 'CNC Machines & Lathe Machine ',
 		machineryPurposes: {
 			item1: 'Lathe Machine',
@@ -71,7 +71,7 @@ export const machineryDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/flexographic-printing-machine-125x125.jpg',
+		thumbnail: 'img/flexographic-printing-machine-125x125.jpg',
 		title: ' Printing Machine ',
 		machineryPurposes: {
 			item1: 'Large Format Printers',
@@ -81,7 +81,7 @@ export const machineryDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/industrial-compressor-125x125.jpg',
+		thumbnail: 'img/industrial-compressor-125x125.jpg',
 		title: 'Air Compressors',
 		machineryPurposes: {
 			item1: 'Oil Free Air Compressor ',
@@ -91,7 +91,7 @@ export const machineryDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/seawaterfiltrationsystem-125x125.jpg',
+		thumbnail: 'img/seawaterfiltrationsystem-125x125.jpg',
 		title: 'Water Purification Plants',
 		machineryPurposes: {
 			item1: 'Water Softening Systems',
@@ -101,7 +101,7 @@ export const machineryDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/dsc_2766-125x125.jpg',
+		thumbnail: 'img/dsc_2766-125x125.jpg',
 		title: 'Food Processing Plants',
 		machineryPurposes: {
 			item1: 'Animal Feed Making Machine',

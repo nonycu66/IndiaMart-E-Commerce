@@ -20,7 +20,7 @@ export const packagingDataLeft = [
 
 export const packagingDataRight = [
 	{
-		thumbnail: '/img/corrugated-box-125x125.webp',
+		thumbnail: 'img/corrugated-box-125x125.webp',
 		title: 'Corrugated Packaging Boxes',
 		packagingPurposes: {
 			item1: 'Corrugated Box',
@@ -31,7 +31,7 @@ export const packagingDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/cvid06.png',
+		thumbnail: 'img/cvid06.png',
 		title: 'Plastic Bottles',
 		packagingPurposes: {
 			item1: 'PET Bottles',
@@ -42,7 +42,7 @@ export const packagingDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/flip-top-bottle-cap-125x125.webp',
+		thumbnail: 'img/flip-top-bottle-cap-125x125.webp',
 		title: 'Cap Closures',
 		packagingPurposes: {
 			item1: 'Bottle Caps',
@@ -53,7 +53,7 @@ export const packagingDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/packaging-pouch-125x125.webp',
+		thumbnail: 'img/packaging-pouch-125x125.webp',
 		title: 'Plastic Pouches',
 		packagingPurposes: {
 			item1: 'Stand Up Pouch ',
@@ -64,7 +64,7 @@ export const packagingDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/packaging-machine-125x125.webp',
+		thumbnail: 'img/packaging-machine-125x125.webp',
 		title: 'Packaging Machines ',
 		packagingPurposes: {
 			item1: 'Pouch Packaging Machines ',
@@ -75,7 +75,7 @@ export const packagingDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/automatic-vertical-form-fill-seal-machine-125x125.webp',
+		thumbnail: 'img/automatic-vertical-form-fill-seal-machine-125x125.webp',
 		title: 'Form Fill & Seal Packaging Machines',
 		packagingPurposes: {
 			item1: 'Spices Packing Machines',

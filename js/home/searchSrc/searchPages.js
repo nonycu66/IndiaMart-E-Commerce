@@ -12,7 +12,7 @@ export function searchHTML() {
 	container.appendChild(searchMainDiv);
 	// Add class to searchMaindiv
 	searchMainDiv.classList.add(
-		'bg-[url(/img/bg-img.jpg)]',
+		'bg-[url(img/bg-img.jpg)]',
 		'text-center',
 		'bg-[#ccc]',
 		'py-[35px]',

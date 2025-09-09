@@ -2,7 +2,7 @@ export const productsData = [
 	{
 		productid: 'id1',
 		image: {
-			src: '/img/product-jpeg-125x125.webp',
+			src: 'img/product-jpeg-125x125.webp',
 			alt: 'product',
 		},
 		title: 'Delhi To Lucknow transportation Services',
@@ -50,7 +50,7 @@ export const productsData = [
 	{
 		productid: 'id4',
 		image: {
-			src: '/img/14390950525312647475.jpeg',
+			src: 'img/14390950525312647475.jpeg',
 			alt: 'product',
 		},
 		title: 'Truck Transportation Services',
@@ -66,7 +66,7 @@ export const productsData = [
 	{
 		productid: 'id5',
 		image: {
-			src: '/img/bricscad.webp',
+			src: 'img/bricscad.webp',
 			alt: 'product',
 		},
 		title: 'CADPROFI - Mechanical Library Software',
@@ -82,7 +82,7 @@ export const productsData = [
 	{
 		productid: 'id6',
 		image: {
-			src: '/img/bluebeam-software-inc-250x250.webp',
+			src: 'img/bluebeam-software-inc-250x250.webp',
 			alt: 'product',
 		},
 		title: 'Blue Software Inc',
@@ -98,7 +98,7 @@ export const productsData = [
 	{
 		productid: 'id7',
 		image: {
-			src: '/img/autodesk-autocad-software-250x250.webp',
+			src: 'img/autodesk-autocad-software-250x250.webp',
 			alt: 'product',
 		},
 		title: 'Autodesk Autocad Software LT 2023',
@@ -114,7 +114,7 @@ export const productsData = [
 	{
 		productid: 'id8',
 		image: {
-			src: '/img/bentley-staad-pro-250x250.webp',
+			src: 'img/bentley-staad-pro-250x250.webp',
 			alt: 'product',
 		},
 		title: 'Bentley Staad Pro',
@@ -130,7 +130,7 @@ export const productsData = [
 	{
 		productid: 'id9',
 		image: {
-			src: '/img/delhi-to-pune-transport-service-250x250.webp',
+			src: 'img/delhi-to-pune-transport-service-250x250.webp',
 			alt: 'product',
 		},
 		title: 'Delhi to Pune Transport Service',
@@ -146,7 +146,7 @@ export const productsData = [
 	{
 		productid: 'id10',
 		image: {
-			src: '/img/autocad-mechanical-designing-service-250x250.webp',
+			src: 'img/autocad-mechanical-designing-service-250x250.webp',
 			alt: 'product',
 		},
 		title: 'Autocad Mechanical Software',

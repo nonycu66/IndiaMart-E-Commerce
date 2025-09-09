@@ -1,6 +1,6 @@
 export const getAppData = [
 	{
-		image: '/img/app-img.png',
+		image: 'img/app-img.png',
 		heading: 'Get IndiaMART App',
 		paragraph:
 			'Search for products/services and connect with verified sellers on the go!',

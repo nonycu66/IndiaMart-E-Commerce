@@ -19,7 +19,7 @@ export const chemicalsDataLeft = [
 ];
 export const chemicalsDataRight = [
 	{
-		thumbnail: '/img/isopropyl-alcohol-125x125.webp',
+		thumbnail: 'img/isopropyl-alcohol-125x125.webp',
 		title: 'Industrial Alcohol',
 		chemicalsPurposes: {
 			item1: ' isopropyl Alcohol',
@@ -29,7 +29,7 @@ export const chemicalsDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/buffer-solution-125x125.webp',
+		thumbnail: 'img/buffer-solution-125x125.webp',
 		title: 'Chemical Compound',
 		chemicalsPurposes: {
 			item1: 'IPA HCL',
@@ -39,7 +39,7 @@ export const chemicalsDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/biodegradable-chelant-125x125.webp',
+		thumbnail: 'img/biodegradable-chelant-125x125.webp',
 		title: 'Industrial Chemicals',
 		chemicalsPurposes: {
 			item1: 'Speciality Chemicals',
@@ -49,7 +49,7 @@ export const chemicalsDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/reactive-m-dyes-125x125.jpg',
+		thumbnail: 'img/reactive-m-dyes-125x125.jpg',
 		title: 'Industrial Dyes',
 		chemicalsPurposes: {
 			item1: 'Reactive Dyes',
@@ -59,7 +59,7 @@ export const chemicalsDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/thermoplastic-resin-125x125.webp',
+		thumbnail: 'img/thermoplastic-resin-125x125.webp',
 		title: 'Resin ',
 		chemicalsPurposes: {
 			item1: 'PVC Resin ',
@@ -69,7 +69,7 @@ export const chemicalsDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/chemical-fertilizer-125x125.webp',
+		thumbnail: 'img/chemical-fertilizer-125x125.webp',
 		title: 'Chemical Fertilizer',
 		chemicalsPurposes: {
 			item1: ' Micronutrient Fertilizers',

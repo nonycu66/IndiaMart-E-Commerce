@@ -1,7 +1,7 @@
 export const categoriesData = [
 	{
 		image: {
-			src: '/img/diesel-generator.jpg',
+			src: 'img/diesel-generator.jpg',
 			alt: 'diesel-generator',
 		},
 		name: 'Diesel Engine Generator Set',
@@ -9,7 +9,7 @@ export const categoriesData = [
 	},
 	{
 		image: {
-			src: '/img/tmt-bars-125x125.webp',
+			src: 'img/tmt-bars-125x125.webp',
 			alt: 'bars',
 		},
 		name: 'TMT Bars',
@@ -17,7 +17,7 @@ export const categoriesData = [
 	},
 	{
 		image: {
-			src: '/img/roofing-sheets-125x125.webp',
+			src: 'img/roofing-sheets-125x125.webp',
 			alt: 'roofing-sheets',
 		},
 		name: 'Roofing Sheets',
@@ -25,7 +25,7 @@ export const categoriesData = [
 	},
 	{
 		image: {
-			src: '/img/pvc-pipes-125x125.webp',
+			src: 'img/pvc-pipes-125x125.webp',
 			alt: 'pvc-pipes',
 		},
 		name: 'PVC pipes',
@@ -33,7 +33,7 @@ export const categoriesData = [
 	},
 	{
 		image: {
-			src: '/img/inverter-batteries-125x125.png',
+			src: 'img/inverter-batteries-125x125.png',
 			alt: 'inverter-batteries',
 		},
 		name: 'Inverter Battery',
@@ -41,7 +41,7 @@ export const categoriesData = [
 	},
 	{
 		image: {
-			src: '/img/plywoods-125x125.webp',
+			src: 'img/plywoods-125x125.webp',
 			alt: 'plywoods',
 		},
 		name: 'Plywoods',
@@ -49,7 +49,7 @@ export const categoriesData = [
 	},
 	{
 		image: {
-			src: '/img/industrial-sewing-machine-125x125.jpg',
+			src: 'img/industrial-sewing-machine-125x125.jpg',
 			alt: 'industria-sweing-machine',
 		},
 		name: 'Industrial Sewing Machine',
@@ -57,7 +57,7 @@ export const categoriesData = [
 	},
 	{
 		image: {
-			src: '/img/laptop-computers-125x125.jpg',
+			src: 'img/laptop-computers-125x125.jpg',
 			alt: 'laptop-computers',
 		},
 		name: 'Laptops',
@@ -65,7 +65,7 @@ export const categoriesData = [
 	},
 	{
 		image: {
-			src: '/img/engine-oil-125x125.jpg',
+			src: 'img/engine-oil-125x125.jpg',
 			alt: 'engine-oil',
 		},
 		name: 'Engine Oil',
@@ -73,7 +73,7 @@ export const categoriesData = [
 	},
 	{
 		image: {
-			src: '/img/industrial-machinery-125x125.jpg',
+			src: 'img/industrial-machinery-125x125.jpg',
 			alt: 'industrial-machinery',
 		},
 		name: 'Industrial Machinery',

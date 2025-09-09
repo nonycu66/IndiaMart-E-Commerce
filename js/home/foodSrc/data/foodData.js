@@ -20,7 +20,7 @@ export const foodDataLeft = [
 
 export const foodDataRight = [
 	{
-		thumbnail: '/img/rice-125x125.jpg',
+		thumbnail: 'img/rice-125x125.jpg',
 		title: 'Rice',
 		foodPurposes: {
 			item1: 'Basmati Rice',
@@ -30,7 +30,7 @@ export const foodDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/wheat-125x125.jpg',
+		thumbnail: 'img/wheat-125x125.jpg',
 		title: ' Wheat',
 		foodPurposes: {
 			item1: 'Wheat Grains ',
@@ -40,7 +40,7 @@ export const foodDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/pulses-125x125.jpg',
+		thumbnail: 'img/pulses-125x125.jpg',
 		title: 'Pulses ',
 		foodPurposes: {
 			item1: 'Toor Dal ',
@@ -50,7 +50,7 @@ export const foodDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/veg01.png',
+		thumbnail: 'img/veg01.png',
 		title: 'Fresh Vegetables ',
 		foodPurposes: {
 			item1: 'Potato',
@@ -60,7 +60,7 @@ export const foodDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/garam-masala-powder-500x500.webp',
+		thumbnail: 'img/garam-masala-powder-500x500.webp',
 		title: ' Whole Spices ',
 		foodPurposes: {
 			item1: 'Green Cardamom',
@@ -70,7 +70,7 @@ export const foodDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/pumpkin-seeds-2--125x125.webp',
+		thumbnail: 'img/pumpkin-seeds-2--125x125.webp',
 		title: 'Seeds',
 		foodPurposes: {
 			item1: 'Vegetable Seeds',
@@ -80,7 +80,7 @@ export const foodDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/mono-potassium-phosphate-foliar-fertilizers-125x125.webp',
+		thumbnail: 'img/mono-potassium-phosphate-foliar-fertilizers-125x125.webp',
 		title: 'Fertilizer',
 		foodPurposes: {
 			item1: 'Organic Fertilizers',
@@ -90,7 +90,7 @@ export const foodDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/alpler-disc-plough-125x125.webp',
+		thumbnail: 'img/alpler-disc-plough-125x125.webp',
 		title: 'Agricultural Tools',
 		foodPurposes: {
 			item1: 'Agricultural Sprayers ',
@@ -100,7 +100,7 @@ export const foodDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/manual-power-weeder-125x125.webp',
+		thumbnail: 'img/manual-power-weeder-125x125.webp',
 		title: 'Agricultural Machinery',
 		foodPurposes: {
 			item1: 'Brush Cutters',

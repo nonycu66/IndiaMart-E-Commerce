@@ -23,7 +23,7 @@ export const medicalDataLeft = [
 
 export const medicalDataRight = [
 	{
-		thumbnail: '/img/cvid09.png',
+		thumbnail: 'img/cvid09.png',
 		title: 'Medical Laboratory Instruments',
 		medicalPurposes: {
 			item1: 'Rapid Test Kit',
@@ -33,7 +33,7 @@ export const medicalDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/patient-monitoring-system-125x125.webp',
+		thumbnail: 'img/patient-monitoring-system-125x125.webp',
 		title: 'Patient Monitoring Systems',
 		medicalPurposes: {
 			item1: 'Blood Pressure Machine',
@@ -43,7 +43,7 @@ export const medicalDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/infrared-thermometer-125x125.webp',
+		thumbnail: 'img/infrared-thermometer-125x125.webp',
 		title: 'Thermometer',
 		medicalPurposes: {
 			item1: 'infrared Thermometers ',
@@ -53,7 +53,7 @@ export const medicalDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/neonatal-portable-icu-ventilator-125x125.webp',
+		thumbnail: 'img/neonatal-portable-icu-ventilator-125x125.webp',
 		title: 'Medical Imaging Machine',
 		medicalPurposes: {
 			item1: 'X Ray Machine',
@@ -63,7 +63,7 @@ export const medicalDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/stethoscope-cardio-125x125.webp',
+		thumbnail: 'img/stethoscope-cardio-125x125.webp',
 		title: 'Stethoscope',
 		medicalPurposes: {
 			item1: 'Cardiology Stethoscope',
@@ -73,7 +73,7 @@ export const medicalDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/electric-suction-unit-125x125.webp',
+		thumbnail: 'img/electric-suction-unit-125x125.webp',
 		title: 'Suction Machine ',
 		medicalPurposes: {
 			item1: 'Electric Suction Unit',

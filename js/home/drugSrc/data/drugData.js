@@ -20,7 +20,7 @@ export const drugDataLeft = [
 
 export const drugDataRight = [
 	{
-		thumbnail: '/img/pharmaceutical-drug-125x125.webp',
+		thumbnail: 'img/pharmaceutical-drug-125x125.webp',
 		title: 'Pharmaceutical Drug',
 		drugPurposes: {
 			item1: 'Anticoagulant and Antiplatelet Drugs ',
@@ -30,7 +30,7 @@ export const drugDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/nutritional-supplements-125x125.jpg',
+		thumbnail: 'img/nutritional-supplements-125x125.jpg',
 		title: 'Nutraceuticals',
 		drugPurposes: {
 			item1: 'Vitamin Tablets & Capsules',
@@ -40,7 +40,7 @@ export const drugDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/thinq-mass-gainer-282-lbs-29-125x125.webp',
+		thumbnail: 'img/thinq-mass-gainer-282-lbs-29-125x125.webp',
 		title: 'Fitness Supplements',
 		drugPurposes: {
 			item1: 'Weight Gain Nutrition',
@@ -50,7 +50,7 @@ export const drugDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/multidisciplinary-care-125x125.webp',
+		thumbnail: 'img/multidisciplinary-care-125x125.webp',
 		title: 'Medical Treatment Services',
 		drugPurposes: {
 			item1: 'Dental Treatment Services',
@@ -60,7 +60,7 @@ export const drugDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/8-125x125.jpg',
+		thumbnail: 'img/8-125x125.jpg',
 		title: 'Medical Test Services',
 		drugPurposes: {
 			item1: 'CT Scan Services',
@@ -70,7 +70,7 @@ export const drugDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/allopathic-pcd-pharma-franchise-125x125.webp',
+		thumbnail: 'img/allopathic-pcd-pharma-franchise-125x125.webp',
 		title: 'PCD Pharma Franchise ',
 		drugPurposes: {
 			item1: 'Pharma Franchise ',

@@ -20,7 +20,7 @@ export const electronicsDataLeft = [
 
 export const electronicsDataRight = [
 	{
-		thumbnail: '/img/photocopier-machine-125x125.jpg',
+		thumbnail: 'img/photocopier-machine-125x125.jpg',
 		title: 'Office Automation Products',
 		electronicsPurposes: {
 			item1: 'Multifunction Printer',
@@ -30,7 +30,7 @@ export const electronicsDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/arduino-sensor-125x125.webp',
+		thumbnail: 'img/arduino-sensor-125x125.webp',
 		title: 'Sensors & Transducers',
 		electronicsPurposes: {
 			item1: ' Level Sensors',
@@ -40,7 +40,7 @@ export const electronicsDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/digital-controller-125x125.jpg',
+		thumbnail: 'img/digital-controller-125x125.jpg',
 		title: 'Process Controllers',
 		electronicsPurposes: {
 			item1: 'Level Controllers',
@@ -50,7 +50,7 @@ export const electronicsDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/lighting-controllers1-125x125.jpg',
+		thumbnail: 'img/lighting-controllers1-125x125.jpg',
 		title: 'Control & Automation',
 		electronicsPurposes: {
 			item1: ' VFD ',
@@ -60,7 +60,7 @@ export const electronicsDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/light-emitting-diode-125x125.jpg',
+		thumbnail: 'img/light-emitting-diode-125x125.jpg',
 		title: 'Diodes & Active Devices',
 		electronicsPurposes: {
 			item1: 'Integrated Circuits',
@@ -70,7 +70,7 @@ export const electronicsDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/house-wire-125x125.webp',
+		thumbnail: 'img/house-wire-125x125.webp',
 		title: 'House Wire',
 		electronicsPurposes: {
 			item1: 'Armoured Cable',
@@ -80,7 +80,7 @@ export const electronicsDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/street-light-125x125.jpg',
+		thumbnail: 'img/street-light-125x125.jpg',
 		title: 'Commercial Lights',
 		electronicsPurposes: {
 			item1: 'Flood Lights ',
@@ -90,7 +90,7 @@ export const electronicsDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/inverter-batteries-125x125.png',
+		thumbnail: 'img/inverter-batteries-125x125.png',
 		title: 'Batteries',
 		electronicsPurposes: {
 			item1: ' Lithium Battery',
@@ -100,7 +100,7 @@ export const electronicsDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/solar-power-systems-125x125.jpg',
+		thumbnail: 'img/solar-power-systems-125x125.jpg',
 		title: 'Solar & Renewable Energy',
 		electronicsPurposes: {
 			item1: 'Solar Panels',

@@ -17,7 +17,7 @@ export const apparelDataLeft = [
 
 export const apparelDataRight = [
 	{
-		thumbnail: '/img/ladies-kurtis-125x125.jpg',
+		thumbnail: 'img/ladies-kurtis-125x125.jpg',
 		title: 'Ladies Kurtis',
 		apparelPurposes: {
 			item1: 'Designer Kurtis',
@@ -27,7 +27,7 @@ export const apparelDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/mens-t-shirts-125x125.jpg',
+		thumbnail: 'img/mens-t-shirts-125x125.jpg',
 		title: 'Mens T-Shirts',
 		apparelPurposes: {
 			item1: 'Mens Round Neck T Shirt',
@@ -37,7 +37,7 @@ export const apparelDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/blazers-125x125.jpg',
+		thumbnail: 'img/blazers-125x125.jpg',
 		title: ' Blazers ',
 		apparelPurposes: {
 			item1: 'Mens Blazer',
@@ -47,7 +47,7 @@ export const apparelDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/safety-shoes-125x125.jpg',
+		thumbnail: 'img/safety-shoes-125x125.jpg',
 		title: 'Safety Shoes ',
 		apparelPurposes: {
 			item1: 'Leather Safety Shoes ',
@@ -57,7 +57,7 @@ export const apparelDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/trouser-125x125.jpg',
+		thumbnail: 'img/trouser-125x125.jpg',
 		title: 'Trouser',
 		apparelPurposes: {
 			item1: 'Cargo Pant',
@@ -67,7 +67,7 @@ export const apparelDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/mannequins-125x125.jpg',
+		thumbnail: 'img/mannequins-125x125.jpg',
 		title: ' Mannequins',
 		apparelPurposes: {
 			item1: 'Female Mannequins',
@@ -77,7 +77,7 @@ export const apparelDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/commercial-uniforms-125x125.jpg',
+		thumbnail: 'img/commercial-uniforms-125x125.jpg',
 		title: 'Commercial Uniforms ',
 		apparelPurposes: {
 			item1: 'Worker Uniform',
@@ -87,7 +87,7 @@ export const apparelDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/shirt-125x125.jpg',
+		thumbnail: 'img/shirt-125x125.jpg',
 		title: 'Shirt',
 		apparelPurposes: {
 			item1: 'Printed Shirt',
@@ -97,7 +97,7 @@ export const apparelDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/synthetic-fabric-125x125.jpg',
+		thumbnail: 'img/synthetic-fabric-125x125.jpg',
 		title: 'Synthetic Fabric',
 		apparelPurposes: {
 			item1: 'Rayon Fabrics ',

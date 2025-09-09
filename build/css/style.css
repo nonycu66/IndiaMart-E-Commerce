@@ -3072,16 +3072,20 @@ h2 {
   background-image: url('/img/home-sprite2.png');
 }
 
-.bg-\[url\(\'\/img\/hrd-sp-v32\.png\'\)\]{
-  background-image: url('/img/hrd-sp-v32.png');
+.bg-\[url\(\'img\/home-sprite2\.png\'\)\]{
+  background-image: url('img/home-sprite2.png');
+}
+
+.bg-\[url\(\'img\/hrd-sp-v32\.png\'\)\]{
+  background-image: url('img/hrd-sp-v32.png');
 }
 
 .bg-\[url\(\/build\/img\/home-sprite2\.png\)\]{
   background-image: url(/build/img/home-sprite2.png);
 }
 
-.bg-\[url\(\/img\/bg-img\.jpg\)\]{
-  background-image: url(/img/bg-img.jpg);
+.bg-\[url\(img\/bg-img\.jpg\)\]{
+  background-image: url(img/bg-img.jpg);
 }
 
 .bg-caret-icon{
@@ -3126,6 +3130,10 @@ h2 {
 
 .bg-search-icon{
   background-image: url("/img/home-sprite2.png");
+}
+
+.bg-\[url\(\'icon\/globe\.png\'\)\]{
+  background-image: url('icon/globe.png');
 }
 
 .from-\[\#5bbc21\]{
@@ -4335,7 +4343,7 @@ h2 {
 }
 
 .build-bg-image {
-  background: url('/img/building-construction.jpg');
+  background: url('img/building-construction.jpg');
   position: relative;
   display: block;
   background-size: cover;
@@ -4360,7 +4368,7 @@ h2 {
 }
 
 .electronic-bg-image {
-  background: url('/img/electronics-electrical-goods.jpg');
+  background: url('img/electronics-electrical-goods.jpg');
   position: relative;
   display: block;
   background-size: cover;
@@ -4385,7 +4393,7 @@ h2 {
 }
 
 .drug-bg-image {
-  background: url('/img/bigBn06.jpg');
+  background: url('img/bigBn06.jpg');
   position: relative;
   background-size: cover;
   min-width: 92%;
@@ -4411,7 +4419,7 @@ h2 {
 }
 
 .medical-bg-image {
-  background: url('/img/bigBn04.jpg');
+  background: url('img/bigBn04.jpg');
   position: relative;
   background-size: cover;
   min-width: 92%;
@@ -4437,7 +4445,7 @@ h2 {
 }
 
 .machinery-bg-image {
-  background: url('/img/industrial-plants-machinery.jpg');
+  background: url('img/industrial-plants-machinery.jpg');
   position: relative;
   background-size: cover;
   min-width: 92%;
@@ -4463,7 +4471,7 @@ h2 {
 }
 
 .industrial-bg-image {
-  background: url('/img/industrial-engineering.jpg');
+  background: url('img/industrial-engineering.jpg');
   position: relative;
   background-size: cover;
   min-width: 92%;
@@ -4489,7 +4497,7 @@ h2 {
 }
 
 .food-bg-image {
-  background: url('/img/vegetable-fruits.png');
+  background: url('img/vegetable-fruits.png');
   position: relative;
   background-size: cover;
   min-width: 92%;
@@ -4515,7 +4523,7 @@ h2 {
 }
 
 .apparel-bg-image {
-  background: url('/img/apparel-clothing-garments.jpg');
+  background: url('img/apparel-clothing-garments.jpg');
   position: relative;
   background-size: cover;
   min-width: 92%;
@@ -4541,7 +4549,7 @@ h2 {
 }
 
 .packaging-bg-image {
-  background: url('/img/bigBn05.jpg');
+  background: url('img/bigBn05.jpg');
   position: relative;
   background-size: cover;
   min-width: 92%;
@@ -4567,7 +4575,7 @@ h2 {
 }
 
 .chemicals-bg-image {
-  background: url('/img/bigBn03.jpg');
+  background: url('img/bigBn03.jpg');
   position: relative;
   background-size: cover;
   min-width: 92%;
@@ -4593,7 +4601,7 @@ h2 {
 }
 
 .logistics-bg-image {
-  background: url('/img/bigBn07.jpg');
+  background: url('img/bigBn07.jpg');
   position: relative;
   background-size: cover;
   min-width: 92%;
@@ -4870,6 +4878,11 @@ h2 {
 .before\:bg-message-icon::before{
   content: var(--tw-content);
   background-image: url("/icon/messsage-box.png");
+}
+
+.before\:bg-\[url\(\'icon\/messsage-box\.png\'\)\]::before{
+  content: var(--tw-content);
+  background-image: url('icon/messsage-box.png');
 }
 
 .before\:bg-\[position\:50\%\]::before{

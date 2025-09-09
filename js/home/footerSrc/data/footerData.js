@@ -5,17 +5,17 @@ export const footerDataFirst = [
 		firstFooter: [
 			{
 				appleText: 'IOS App',
-				imgSrc: '/img/hrd-sp-v32.png',
+				imgSrc: 'img/hrd-sp-v32.png',
 				iconPosition: '-45px -187px',
 			},
 			{
 				androidText: 'Android App',
-				imgSrc: '/img/hrd-sp-v32.png',
+				imgSrc: 'img/hrd-sp-v32.png',
 				iconPosition: '0px -187px',
 			},
 			{
 				websiteText: 'm.indiamart.com',
-				imgSrc: '/img/hrd-sp-v32.png',
+				imgSrc: 'img/hrd-sp-v32.png',
 				iconPosition: '-90px -187px',
 			},
 		],
@@ -23,17 +23,17 @@ export const footerDataFirst = [
 		secondFooter: [
 			{
 				faceBookText: 'Facebook',
-				imgSrc: '/img/hrd-sp-v32.png',
+				imgSrc: 'img/hrd-sp-v32.png',
 				iconPosition: '-138px -189px',
 			},
 			{
 				twitterText: 'Twitter',
-				imgSrc: '/img/hrd-sp-v32.png',
+				imgSrc: 'img/hrd-sp-v32.png',
 				iconPosition: '-202px -189px',
 			},
 			{
 				linkedInText: 'LinkedIn',
-				imgSrc: '/img/hrd-sp-v32.png',
+				imgSrc: 'img/hrd-sp-v32.png',
 				iconPosition: '-265px -189px',
 			},
 		],

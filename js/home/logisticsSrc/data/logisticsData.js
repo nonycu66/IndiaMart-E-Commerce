@@ -17,7 +17,7 @@ export const logisticsDataLeft = [
 
 export const logisticsDataRight = [
 	{
-		thumbnail: '/img/corporate-domestic-courier-service-125x125.webp',
+		thumbnail: 'img/corporate-domestic-courier-service-125x125.webp',
 		title: 'Transportation Services',
 		logisticsPurposes: {
 			item1: 'Goods Transport Services',
@@ -27,7 +27,7 @@ export const logisticsDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/local-shifting-service-125x125.webp',
+		thumbnail: 'img/local-shifting-service-125x125.webp',
 		title: ' Domestic Relocation Service ',
 		logisticsPurposes: {
 			item1: 'Packers Movers',
@@ -37,7 +37,7 @@ export const logisticsDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/cargo-shipping-service-125x125.webp',
+		thumbnail: 'img/cargo-shipping-service-125x125.webp',
 		title: 'Cargo & Shipping',
 		logisticsPurposes: {
 			item1: 'Air Cargo Service',
@@ -47,7 +47,7 @@ export const logisticsDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/heavy-duty-truck-125x125.webp',
+		thumbnail: 'img/heavy-duty-truck-125x125.webp',
 		title: 'Truck Rentals ',
 		logisticsPurposes: {
 			item1: 'Tiper Truck Rental Services',
@@ -57,7 +57,7 @@ export const logisticsDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/local-logistics-service-125x125.webp',
+		thumbnail: 'img/local-logistics-service-125x125.webp',
 		title: 'Logistics Service',
 		logisticsPurposes: {
 			item1: 'Third Party Logistics',
@@ -67,7 +67,7 @@ export const logisticsDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/parcel-delivery-services-125x125.webp',
+		thumbnail: 'img/parcel-delivery-services-125x125.webp',
 		title: 'Other Services',
 		logisticsPurposes: {
 			item1: 'Warehousing Services',

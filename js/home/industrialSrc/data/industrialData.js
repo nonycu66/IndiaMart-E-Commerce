@@ -20,7 +20,7 @@ export const industrialDataLeft = [
 
 export const industrialDataRight = [
 	{
-		thumbnail: '/img/submersible-pump-125x125.jpg',
+		thumbnail: 'img/submersible-pump-125x125.jpg',
 		title: 'Submersible Pump',
 		industrialPurposes: {
 			item1: 'Borewell Submersible Pump',
@@ -30,7 +30,7 @@ export const industrialDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/automotive-oils-125x125.jpg',
+		thumbnail: 'img/automotive-oils-125x125.jpg',
 		title: 'Automotive Oils',
 		industrialPurposes: {
 			item1: 'Engine Oil',
@@ -40,7 +40,7 @@ export const industrialDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/water-tanks-125x125.jpg',
+		thumbnail: 'img/water-tanks-125x125.jpg',
 		title: 'Water Tanks',
 		industrialPurposes: {
 			item1: 'Triple Layered Water Tanks',
@@ -50,7 +50,7 @@ export const industrialDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/pvc-sheets-125x125.jpg',
+		thumbnail: 'img/pvc-sheets-125x125.jpg',
 		title: 'Sheets PVC ',
 		industrialPurposes: {
 			item1: 'PVC Foam Sheets',
@@ -60,7 +60,7 @@ export const industrialDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/conveyor-components-125x125.jpg',
+		thumbnail: 'img/conveyor-components-125x125.jpg',
 		title: 'Conveyor Components',
 		industrialPurposes: {
 			item1: 'Conveyor Belt',
@@ -70,7 +70,7 @@ export const industrialDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/plastic-scrap-125x125.jpg',
+		thumbnail: 'img/plastic-scrap-125x125.jpg',
 		title: 'Plastic Scrap ',
 		industrialPurposes: {
 			item1: 'PP Scrap ',
@@ -80,7 +80,7 @@ export const industrialDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/packaging-tapes-125x125.jpg',
+		thumbnail: 'img/packaging-tapes-125x125.jpg',
 		title: 'Packaging Tapes',
 		industrialPurposes: {
 			item1: 'Self Adhesive Tapes',
@@ -90,7 +90,7 @@ export const industrialDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/industrial-rack-125x125.jpg',
+		thumbnail: 'img/industrial-rack-125x125.jpg',
 		title: 'Industrial Rack',
 		industrialPurposes: {
 			item1: 'Warehouse Racks',
@@ -100,7 +100,7 @@ export const industrialDataRight = [
 		},
 	},
 	{
-		thumbnail: '/img/water-heaters-125x125.jpg',
+		thumbnail: 'img/water-heaters-125x125.jpg',
 		title: 'Water Heater & Geyser',
 		industrialPurposes: {
 			item1: 'Solar Water Heater',
