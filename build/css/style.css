@@ -3064,12 +3064,8 @@ h2 {
   background-image: url('/build/img/login-sprite.png');
 }
 
-.bg-\[url\(\'\/icon\/globe\.png\'\)\]{
-  background-image: url('/icon/globe.png');
-}
-
-.bg-\[url\(\'\/img\/home-sprite2\.png\'\)\]{
-  background-image: url('/img/home-sprite2.png');
+.bg-\[url\(\'icon\/globe\.png\'\)\]{
+  background-image: url('icon/globe.png');
 }
 
 .bg-\[url\(\'img\/home-sprite2\.png\'\)\]{
@@ -3089,35 +3085,35 @@ h2 {
 }
 
 .bg-caret-icon{
-  background-image: url("/icon/caret-down.svg");
+  background-image: url("icon/caret-down.svg");
 }
 
 .bg-close-icon{
-  background-image: url("/icon/cross.svg");
+  background-image: url("icon/cross.svg");
 }
 
 .bg-country-icon{
-  background-image: url("/img/country-v5.png");
+  background-image: url("img/country-v5.png");
 }
 
 .bg-desktop-banner{
-  background-image: url("/img/desktop-banner.webp");
+  background-image: url("img/desktop-banner.webp");
 }
 
 .bg-download-icon{
-  background-image: url("/icon/download.png");
+  background-image: url("icon/download.png");
 }
 
 .bg-form-icon{
-  background-image: url("/icon/blform-sprite22.png");
+  background-image: url("icon/blform-sprite22.png");
 }
 
 .bg-globe-icon{
-  background-image: url("/icon/globe.png");
+  background-image: url("icon/globe.png");
 }
 
 .bg-google-icon{
-  background-image: url("/icon/Glogo.png");
+  background-image: url("icon/Glogo.png");
 }
 
 .bg-gradient-to-r{
@@ -3125,15 +3121,11 @@ h2 {
 }
 
 .bg-home-logo{
-  background-image: url("/img/hrd-sp-v32.png");
+  background-image: url("img/hrd-sp-v32.png");
 }
 
 .bg-search-icon{
-  background-image: url("/img/home-sprite2.png");
-}
-
-.bg-\[url\(\'icon\/globe\.png\'\)\]{
-  background-image: url('icon/globe.png');
+  background-image: url("img/home-sprite2.png");
 }
 
 .from-\[\#5bbc21\]{
@@ -4870,19 +4862,14 @@ h2 {
   background-image: url('/build/icon/telephone.svg');
 }
 
-.before\:bg-\[url\(\'\/icon\/messsage-box\.png\'\)\]::before{
+.before\:bg-\[url\(\'icon\/messsage-box\.png\'\)\]::before{
   content: var(--tw-content);
-  background-image: url('/icon/messsage-box.png');
+  background-image: url('icon/messsage-box.png');
 }
 
 .before\:bg-message-icon::before{
   content: var(--tw-content);
-  background-image: url("/icon/messsage-box.png");
-}
-
-.before\:bg-\[url\(\'icon\/messsage-box\.png\'\)\]::before{
-  content: var(--tw-content);
-  background-image: url('icon/messsage-box.png');
+  background-image: url("icon/messsage-box.png");
 }
 
 .before\:bg-\[position\:50\%\]::before{
