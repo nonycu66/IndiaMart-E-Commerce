@@ -3036,6 +3036,10 @@ h2 {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[url\(\"img\/hrd-sp-v32\.png\"\)\]{
+  background-image: url("img/hrd-sp-v32.png");
+}
+
 .bg-\[url\(\'\/build\/icon\/home-new-icon16\.png\'\)\]{
   background-image: url('/build/icon/home-new-icon16.png');
 }
@@ -3120,12 +3124,24 @@ h2 {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
-.bg-home-logo{
-  background-image: url("img/hrd-sp-v32.png");
-}
-
 .bg-search-icon{
   background-image: url("img/home-sprite2.png");
+}
+
+.bg-\[url\(img\/hrd-sp-v32\.png\)\]{
+  background-image: url(img/hrd-sp-v32.png);
+}
+
+.bg-\[url\(\'img\/hrd-sp-v32\.\'\)\]{
+  background-image: url('img/hrd-sp-v32.');
+}
+
+.bg-\[url\(\$\{data\.navLink\.imgSrc\}\)\]{
+  background-image: url(${data.navLink.imgSrc});
+}
+
+.bg-\[url\(\'\$\{data\.navLink\.imgSrc\}\'\)\]{
+  background-image: url('${data.navLink.imgSrc}');
 }
 
 .from-\[\#5bbc21\]{

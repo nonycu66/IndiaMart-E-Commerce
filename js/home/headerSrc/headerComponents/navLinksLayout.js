@@ -79,7 +79,7 @@ export function generateNavLinksLayout() {
 					
 			     	>
 					<span
-					   class="absolute -top-1 left-1/2 w-6 h-5 bg-[url('img/hrd-sp-v32.png')] z-[9999999] -translate-x-1/2 bg-no-repeat"
+					   class="absolute -top-1 left-1/2 w-6 h-5 bg-[url('${data.navLink.imgSrc}')] z-[9999999] -translate-x-1/2 bg-no-repeat"
 					   style="background-position: ${backgroundPosition}"
 					 >
 					</span>

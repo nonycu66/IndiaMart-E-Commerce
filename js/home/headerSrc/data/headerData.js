@@ -1,30 +1,35 @@
 export const headerData = [
 	{
 		navLink: {
+			imgSrc: 'img/hrd-sp-v32.png',
 			href: 'shopping.html',
 			text: 'Shopping',
 		},
 	},
 	{
 		navLink: {
+			imgSrc: 'img/hrd-sp-v32.png',
 			href: 'sell.html',
 			text: 'Sell',
 		},
 	},
 	{
 		navLink: {
+			imgSrc: 'img/hrd-sp-v32.png',
 			href: 'help.html',
 			text: 'Help',
 		},
 	},
 	{
 		navLink: {
+			imgSrc: 'img/hrd-sp-v32.png',
 			href: 'messages.html',
 			text: 'Messages',
 		},
 	},
 	{
 		navLink: {
+			imgSrc: 'img/hrd-sp-v32.png',
 			href: 'sign-in.html',
 			text: 'Sign In',
 		},

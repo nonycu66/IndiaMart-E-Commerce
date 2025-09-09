@@ -4,7 +4,6 @@ module.exports = {
 	theme: {
 		extend: {
 			backgroundImage: {
-				'home-logo': 'url("img/hrd-sp-v32.png")',
 				'shopping-logo': 'url("img/im_logo.jpg")',
 				'nav-icon': 'url("img/hrd-sp-v32.png")',
 				'help-dropdown-icon': 'url("icon/home-new-icon16.png")',
