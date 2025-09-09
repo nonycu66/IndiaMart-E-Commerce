@@ -4,5 +4,6 @@
 	"tailwindcss-intellisense.trace.server": "messages",
 	"css.lint.unknownAtRules": "ignore",
 	"javascript.updateImportsOnFileMove.enabled": "always",
-	"typescript.updateImportsOnFileMove.enabled": "always"
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"liveServer.settings.CustomBrowser": "microsoft-edge"
 }
