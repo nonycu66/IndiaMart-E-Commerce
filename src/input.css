@@ -56,7 +56,7 @@
 	}
 
 	.build-bg-image {
-		background: url('img/building-construction.jpg');
+		background: url('/img/building-construction.jpg');
 		position: relative;
 		display: block;
 		background-size: cover;
@@ -81,7 +81,7 @@
 	}
 
 	.electronic-bg-image {
-		background: url('img/electronics-electrical-goods.jpg');
+		background: url('/img/electronics-electrical-goods.jpg');
 		position: relative;
 		display: block;
 		background-size: cover;
@@ -106,7 +106,7 @@
 	}
 
 	.drug-bg-image {
-		background: url('img/bigBn06.jpg');
+		background: url('/img/bigBn06.jpg');
 		position: relative;
 		background-size: cover;
 		min-width: 92%;
@@ -132,7 +132,7 @@
 	}
 
 	.medical-bg-image {
-		background: url('img/bigBn04.jpg');
+		background: url('/img/bigBn04.jpg');
 		position: relative;
 		background-size: cover;
 		min-width: 92%;
@@ -158,7 +158,7 @@
 	}
 
 	.machinery-bg-image {
-		background: url('img/industrial-plants-machinery.jpg');
+		background: url('/img/industrial-plants-machinery.jpg');
 		position: relative;
 		background-size: cover;
 		min-width: 92%;
@@ -184,7 +184,7 @@
 	}
 
 	.industrial-bg-image {
-		background: url('img/industrial-engineering.jpg');
+		background: url('/img/industrial-engineering.jpg');
 		position: relative;
 		background-size: cover;
 		min-width: 92%;
@@ -210,7 +210,7 @@
 	}
 
 	.food-bg-image {
-		background: url('img/vegetable-fruits.png');
+		background: url('/img/vegetable-fruits.png');
 		position: relative;
 		background-size: cover;
 		min-width: 92%;
@@ -236,7 +236,7 @@
 	}
 
 	.apparel-bg-image {
-		background: url('img/apparel-clothing-garments.jpg');
+		background: url('/img/apparel-clothing-garments.jpg');
 		position: relative;
 		background-size: cover;
 		min-width: 92%;
@@ -261,7 +261,7 @@
 	}
 
 	.packaging-bg-image {
-		background: url('img/bigBn05.jpg');
+		background: url('/img/bigBn05.jpg');
 		position: relative;
 		background-size: cover;
 		min-width: 92%;
@@ -287,7 +287,7 @@
 	}
 
 	.chemicals-bg-image {
-		background: url('img/bigBn03.jpg');
+		background: url('/img/bigBn03.jpg');
 		position: relative;
 		background-size: cover;
 		min-width: 92%;
@@ -313,7 +313,7 @@
 	}
 
 	.logistics-bg-image {
-		background: url('img/bigBn07.jpg');
+		background: url('/img/bigBn07.jpg');
 		position: relative;
 		background-size: cover;
 		min-width: 92%;
