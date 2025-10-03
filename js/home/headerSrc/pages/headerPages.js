@@ -43,7 +43,7 @@ export function renderHeaderHTML() {
 	logoAnchor.classList.add(
 		'h-[2.5rem]',
 		'w-[9.375rem]',
-		'bg-[url(img/hrd-sp-v32.png)]',
+		'bg-[url(/img/hrd-sp-v32.png)]',
 		'block',
 		'bg-no-repeat',
 		'indent-[-9999px]',
@@ -74,7 +74,7 @@ export function renderHeaderHTML() {
 				class=" md:hidden  cursor-pointer"
 			>
 				<img
-					src="icon/menu-burger.svg"
+					src="/icon/menu-burger.svg"
 					alt="menu-burger"
 					class="w-7 custom-img-filter"
 				/>
@@ -85,7 +85,7 @@ export function renderHeaderHTML() {
 				class="hidden cursor-pointer"
 			>
 				<img
-					src="icon/cross.svg"
+					src="/icon/cross.svg"
 					alt="cross"
 					class="w-7 h-7 custom-img-filter"
 				/>

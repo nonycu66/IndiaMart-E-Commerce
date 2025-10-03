@@ -12,7 +12,7 @@ export function searchHTML() {
 	container.appendChild(searchMainDiv);
 	// Add class to searchMaindiv
 	searchMainDiv.classList.add(
-		'bg-[url(img/bg-img.jpg)]',
+		'bg-[url(/img/bg-img.jpg)]',
 		'text-center',
 		'bg-[#ccc]',
 		'py-[35px]',
@@ -57,12 +57,18 @@ export function searchHTML() {
 		  <form class="pt-[2px] pb-[5px] px-[10px]  w-full">
 		    <div class="w-auto overflow-hidden whitespace-nowrap">
 			    <div class="h-[44px] flex items-center justify-center">
-               <button class="bg-[#ececec] relative  text-[#333] px-2 py-2 h-[100%] text-[16px] border-none cursor-pointer min-w-[30%] max-w-[30%] lg:min-w-[15%] w-auto text-left rounded-bl-[8px] rounded-tl-[8px]">
+            <button class="bg-[#ececec] relative text-[#333] px-2 py-2
+			h-[100%] text-[16px] border-none cursor-pointer min-w-[30%]
+			max-w-[30%] lg:min-w-[15%] w-auto text-left rounded-bl-[8px] rounded-tl-[8px]">
 			 <div class="flex">
-	         	<i class="w-6  h-6  bg-no-repeat inline-block  bg-[url('/build/icon/map-maker.png')] scale-[0.8]">
+	         	<i class="w-6  h-6  bg-no-repeat inline-block
+				bg-[url('/icon/map-maker.png')] scale-[0.8]">
 				</i>
                    <span class="absolute  left-8">All India</span>
-                     <i class="h-[15px] w-[15px] bg-[url(/build/img/home-sprite2.png)]  bg-[position:-200px_-357px] bg-no-repeat absolute right-2"></i>
+                     <i class="h-[15px] w-[15px]
+					 bg-[url(/img/home-sprite2.png)]
+					 bg-[position:-200px_-357px] bg-no-repeat absolute right-2">
+					 </i>
 					 </div>
                </button>
 	     	<input
@@ -76,7 +82,7 @@ export function searchHTML() {
 			aria-haspopup="true"
 		/>
          <button type="button" class=" bg-[#02625a] text-[15px] text-white py-[2px] pl-[4px] h-[100%] md:px-[22px]  border-none  md:text-[19px] relative indent-5  cursor-pointer min-w-[25%] max-w-[25%] lg:min-w-[10%] w-auto font-bold  rounded-br-[8px] rounded-tr-[8px]">
-              <i class="w-5 h-[19px] bg-[position:-39px_-484px] absolute left-[10px] top-[25%]  md:left-[20px] bg-[url('/build/img/home-sprite2.png')]">
+              <i class="w-5 h-[19px] bg-[position:-39px_-484px] absolute left-[10px] top-[25%]  md:left-[20px] bg-[url('/img/home-sprite2.png')]">
 			  </i>
              Search 
          </button>

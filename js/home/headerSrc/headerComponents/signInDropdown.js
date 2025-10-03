@@ -47,7 +47,7 @@ function createLink({ text, href, signinIconPosition }) {
 			href="${href}"
 			>
 			<span
-			  class="absolute bg-[url('/build/icon/home-new-icon16.png')] top-[7px] left-[5px] h-5 w-10 bg-no-repeat"
+			  class="absolute bg-[url('/icon/home-new-icon16.png')] top-[7px] left-[5px] h-5 w-10 bg-no-repeat"
 			  style="background-position: ${signinIconPosition}" 
 			>
 			</span>

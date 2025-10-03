@@ -60,7 +60,7 @@ function createLink({ text, href, helpIconPosition }, isFlex = false) {
 			href='${href}'
 			 class=" ${isFlex ? 'flex-1' : 'block w-full'}  text-[#333]  text-[13px] text-left  bg-[#fff]  py-[9px]  pl-8  relative no-underline hover:bg-[#f2f0f0]"
 			>
-			 <span class="absolute top-[7px] left-[7px] h-[18px] w-[39px] bg-no-repeat bg-[url('/build/icon/home-new-icon16.png')]"
+			 <span class="absolute top-[7px] left-[7px] h-[18px] w-[39px] bg-no-repeat bg-[url('/icon/home-new-icon16.png')]"
 			   style="background-position: ${helpIconPosition}"
 			 >
 			 </span>
@@ -73,7 +73,7 @@ function createLink({ text, href, helpIconPosition }, isFlex = false) {
 function createSpan({ text, helpIconPosition }) {
 	return `
 	  	<span class="text-[#333] text-[13px]  text-left bg-white  block  relative  py-[9px]  pl-8  w-full hover:bg-[#f2f0f0]">
-		 <span class="absolute h-[18px] w-[39px] top-[7px] left-[7px] bg-no-repeat bg-[url('/build/icon/home-new-icon16.png')]"
+		 <span class="absolute h-[18px] w-[39px] top-[7px] left-[7px] bg-no-repeat bg-[url('/icon/home-new-icon16.png')]"
 		    style="background-position: ${helpIconPosition}"
 		    >
 		  </span>
